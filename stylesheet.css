@@ -1,0 +1,37 @@
+header{
+  text-align: center;
+}
+.header-title h1{
+  color:skyblue;
+  font-size:50px;
+}
+.header-title{
+  color:skyblue;
+}
+.header-title p{
+  font-size:20px;
+}
+.menu a{
+  color:black;
+  font-weight: bold;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.menu a:hover{
+  color:skyblue;
+}
+/*main*/
+.main{
+  margin: 60px;
+  background-image: url(back.jpg);
+  font-size: cover;
+
+}
+.main img{
+  border-radius: 50%;
+  border:2px solid blue;
+}
+.contents h1{
+  font-weight: normal;
+  font-size: 30px;
+}
