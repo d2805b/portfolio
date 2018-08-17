@@ -1,5 +1,12 @@
+
+body{
+  margin: 0;
+}
 header{
-  text-align:center;
+  text-align: center;
+
+  padding:20px 0;
+  margin-bottom:50px;
 }
 .header-title h1{
   color:skyblue;
@@ -20,18 +27,87 @@ header{
 .menu a:hover{
   color:skyblue;
 }
-/*main*/
-.main{
-  margin: 60px;
-  background-image: url(back.jpg);
-  font-size: cover;
+
+
+
+main{
+background-image: url(./back.jpg);
 
 }
-.main img{
+
+main img{
   border-radius: 50%;
   border:2px solid blue;
 }
-.contents h1{
-  font-weight: normal;
+h1{
   font-size: 30px;
+  margin:15px 0;
+}
+
+
+.contents{
+  font-weight: normal;
+  font-size: 17px;
+
+}
+.contents-item{
+  float:left;
+  padding-left: 30px;
+}
+.contents-item p{
+  margin-bottom:30px;
+}
+.contents-item td{
+  padding-bottom:10px;
+}
+
+.btn-wrapper{
+width:600px;
+}
+.btn-wrapper > a{
+  box-shadow: 10px 10px;
+}
+.btn{
+  padding: 8px 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+
+  test-decoration: none;
+  font-size:17px;
+
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+
+}
+
+.twitter {
+  background-color: #55acee;
+}
+.fa{
+  margin-right:5px;
+}
+.btn:hover{
+  opacity: 1;
+}
+footer{
+  background-image: url(back.jpg);
+  margin-top: 50px;
+  background-color: red;
+}
+.footer-logo h1{
+  float:left;
+}
+ul{
+  text-decoration: none;
+  margin:0;
+  float:right;
+  text-decoration: none;
+}
+li{
+  padding: 20px 0;
+  font-size: 17px;
 }
