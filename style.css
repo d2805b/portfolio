@@ -31,14 +31,13 @@ nav ul li a:hover{
 nav{
   margin: auto 0;
 }
+/*
 .fa-bars{
   height: 40px;
   width: 40px;
   display: none;
 }
-.fa-bars{
-  cursor: pointer;
-}
+*/
 header>.inner{
   height: 100px;
   display: flex;
