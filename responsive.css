@@ -1,0 +1,75 @@
+@media(max-width: 770px){
+  header h1{
+    font-size: 25px;
+    vertical-align: center;
+  }
+  .card{
+    width: calc(50% - 80px);
+  }
+  .c-body{
+    margin: 20px;
+  }
+  .news-box{
+    margin:50px 40px 0 40px;
+  }
+
+  .price-left img{
+    width: 260px;
+    height: 200px;
+  }
+
+  .price-right{
+    width: 300px;
+  }
+}
+
+@media(max-width: 320px){
+  nav{
+    display: none;
+  }
+  .fa-bars{
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .card{
+  width: 70%;
+  }
+  .news-text p{
+    display: block;
+  }
+  .price-box{
+    display: block;
+  }
+  .price-right{
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+.price-container{
+  padding-bottom: 50px;
+}
+.address p{
+  margin: 0;
+  text-align: center;
+}
+.address{
+  margin-top: 0 30px 0 30px;
+}
+.contact-box{
+  padding: 20px;
+  margin: auto 30px;
+}
+.contact-box input,select[name="select"],textarea[name="comment"]{
+  width: 200px;
+}
+input[type="radio"],input[type="checkbox"]{
+  width: 30px;
+}
+footer{
+  display: block;
+  text-align: left;
+}
+.f-left{
+  padding-left: 30px;
+}
+
+}
