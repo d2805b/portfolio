@@ -122,17 +122,17 @@ margin: 0 20px 20px 20px;
 }
 
 
-.news-container{
+#news-container{
   text-align: center;
   padding-bottom: 100px;
 }
-.news-container h2{
+#news-container h2{
   font-size: 30px;
   margin-bottom: 60px;
   padding-top: 40px;
   position: relative;
 }
-.news-container h2::after{
+#news-container h2::after{
   content:'';
   width: 40px;
   height: 2px;
@@ -197,18 +197,18 @@ margin: 0 20px 20px 20px;
 }
 
 /*price*/
-.price-container{
+#price-container{
   background-color: #EEEEEE;
   paddin-bottom: 100px;
 }
-.price-container h2{
+#price-container h2{
   text-align: center;
   font-size: 30px;
   padding-top: 40px;
   margin-bottom: 60px;
   position: relative;
 }
-.price-container h2::after{
+#price-container h2::after{
   content:'';
   width: 40px;
   height: 2px;
@@ -253,17 +253,17 @@ tr span{
 }
 
 /*access*/
-.access-container{
+#access-container{
   text-align: center;
   margin-bottom: 110px;
 }
-.access-container h2{
+#access-container h2{
   font-size: 30px;
   padding-top: 40px;
   margin-bottom:60px;
   position: relative;
 }
-.access-container h2::after{
+#access-container h2::after{
   content:'';
   width: 40px;
   height: 2px;
@@ -309,12 +309,12 @@ tr span{
 }
 
 /*contact*/
-.contact-container{
+#contact-container{
   background-color: gray;
   padding-bottom:100px;
 }
 
-.contact-container h2{
+#contact-container h2{
   font-size: 30px;
   margin-bottom: 60px;
   padding-top: 40px;
@@ -322,7 +322,7 @@ tr span{
   text-align: center;
  
 }
-.contact-container h2::after{
+#contact-container h2::after{
   content:'';
   width: 40px;
   height: 2px;
