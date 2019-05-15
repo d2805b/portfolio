@@ -95,6 +95,7 @@ header>.inner{
 }
 #card{
   background-color: gray;
+  padding-bottom: 100px;
 }
 .cards{
   display: flex;
@@ -123,6 +124,7 @@ margin: 0 20px 20px 20px;
 
 .news-container{
   text-align: center;
+  padding-bottom: 100px;
 }
 .news-container h2{
   font-size: 30px;
@@ -198,6 +200,7 @@ margin: 0 20px 20px 20px;
 .price-container{
   text-align: center;
   background-color: #EEEEEE;
+  paddin-bottom: 100px;
 }
 .price-container h2{
   font-size: 30px;
@@ -252,7 +255,7 @@ tr span{
 /*access*/
 .access-container{
   text-align: center;
-  margin-bottom: 88px;
+  margin-bottom: 110px;
 }
 .access-container h2{
   font-size: 30px;
@@ -308,7 +311,7 @@ tr span{
 /*contact*/
 .contact-container{
   background-color: gray;
-  padding-bottom:116px;
+  padding-bottom:100px;
 }
 
 .contact-container h2{
@@ -336,7 +339,7 @@ tr span{
   display: table;
   background-color: white;
   padding: 57px;
-  margin: 90px auto 0px auto;
+  margin: 0 auto;
 }
 .contact-radio label{
   margin-right: 20px;
