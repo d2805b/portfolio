@@ -225,7 +225,7 @@
           <ul class="faq-list">
               <li class="faq-list-item">
                 <p>質問１</p>
-                <span><i class="fas fa-plus fa-3x"></i></span>
+                <span>➕</span>
                 <div class="faq-answer">
                      <p>あああああああああああああ
 			あああああああああああああ
@@ -234,7 +234,7 @@
               </li>
               <li class="faq-list-item">
                   <p>質問２</p>
-                  <span><i class="fas fa-plus fa-3x"></span>
+                  <span>➕</span>
                   <div class="faq-answer">
                     　　<p>いいいいいいいいいいいいいいいい
 			  いいいいいいいいいいいいいいいい
@@ -243,7 +243,7 @@
               </li>
               <li class="faq-list-item">
                   <p>質問３</p>
-                  <span><i class="fas fa-plus fa-3x"></span>
+                  <span>➕</span>
                   <div class="faq-answer">
                     　　<p>ううううううううううううううう
 			  うううううううううううううううう</p>
@@ -251,7 +251,7 @@
               </li>
               <li class="faq-list-item">
                   <p>質問４</p>
-                  <span><i class="fas fa-plus fa-3x"></i></span>
+                  <span>➕</span>
                   <div class="faq-answer">
                     　　<p>ええええええええええええ
 			  ええええええええええええ
@@ -308,11 +308,11 @@ $(".faq-list-item").click(function(){
   if($answer.hasClass("open")){
     $answer.removeClass("open");
     $answer.slideUp();
-    $(this).find("span").text(<i class="fas fa-plus fa-3x">);
+    $(this).find("span").text("➕");
   }else{
     $answer.addClass("open");
       $answer.slideDown();
-      $(this).find("span").text(<i class="fas fa-minus fa-3x"></i>);
+      $(this).find("span").text("➖");
   }
 });
 
