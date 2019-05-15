@@ -417,7 +417,7 @@ margin-top:80px;
   right: 50px;
   bottom: 90px;
   padding: 10px;
-  background-color: gray;
+  background-color: skyblue;
   display: none;
 }
 .pagetop a{
@@ -425,6 +425,7 @@ margin-top:80px;
   display: block;
   text-decoration: none;
   opacity: 0.6;
+  color: white;
 }
 .pagetop a:hover {
   opacity: 1;
