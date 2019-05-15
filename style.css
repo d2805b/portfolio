@@ -411,3 +411,21 @@ footer{
 .copy-right{
 margin-top:80px;
 }
+
+.pagetop {
+  position: fixed;
+  right: 50px;
+  bottom: 90px;
+  padding: 10px;
+  background-color: gray;
+  display: none;
+}
+.pagetop a{
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.pagetop a:hover {
+  opacity: 1;
+}
