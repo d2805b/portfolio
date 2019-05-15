@@ -123,10 +123,11 @@ margin: 0 20px 20px 20px;
 
 .news-container{
   text-align: center;
-  padding-top: 40px;
 }
 .news-container h2{
   font-size: 30px;
+  margin-bottom: 60px;
+  padding-top: 40px;
   position: relative;
 }
 .news-container h2::after{
@@ -142,7 +143,6 @@ margin: 0 20px 20px 20px;
   background-color: black;
 }
 .news-box{
-  margin-top: 60px;
   display: inline-block;
 }
 .news-text1{
@@ -197,11 +197,12 @@ margin: 0 20px 20px 20px;
 /*price*/
 .price-container{
   text-align: center;
-  padding-top: 68px;
   background-color: #EEEEEE;
 }
 .price-container h2{
   font-size: 30px;
+  padding-top: 40px;
+  margin-bottom: 60px;
   position: relative;
 }
 .price-container h2::after{
@@ -209,7 +210,7 @@ margin: 0 20px 20px 20px;
   width: 40px;
   height: 2px;
   position: absolute;
-  bottom: -40px;
+  bottom: -20px;
   left: 50%;
   transform: translate(-50%);
   display: block;
@@ -220,7 +221,6 @@ margin: 0 20px 20px 20px;
 .price-box{
   display: flex;
   justify-content: space-around;
-  margin-top: 120px;
 }
 
 table,tr,td,th{
@@ -252,11 +252,12 @@ tr span{
 /*access*/
 .access-container{
   text-align: center;
-  padding-top: 68px;
   margin-bottom: 88px;
 }
 .access-container h2{
   font-size: 30px;
+  padding-top: 40px;
+  margin-bottom:60px;
   position: relative;
 }
 .access-container h2::after{
@@ -264,7 +265,7 @@ tr span{
   width: 40px;
   height: 2px;
   position: absolute;
-  bottom: -40px;
+  bottom: -20px;
   left: 50%;
   transform: translate(-50%);
   display: block;
@@ -272,9 +273,7 @@ tr span{
   background-color: black;
 }
 
-.map{
-  margin-top:120px;
-}
+
 .address p{
   text-align: left;
   margin:10px 0 5px 160px;
@@ -309,8 +308,30 @@ tr span{
 /*contact*/
 .contact-container{
   background-color: gray;
-  padding:60px 0 116px 0;
+  padding-bottom:116px;
 }
+
+.contact-container h2{
+  font-size: 30px;
+  margin-bottom: 60px;
+  padding-top: 40px;
+  position: relative;
+  text-align: center;
+ 
+}
+.contact-container h2::after{
+  content:'';
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: block;
+  width: 50px;
+  background-color: black;
+}
+
 .contact-box{
   display: table;
   background-color: white;
@@ -371,24 +392,7 @@ form input{
 select[name="select"]{
   width: 528px;
 }
-.contact-container h2{
-  font-size: 30px;
-  position: relative;
-  text-align: center;
-  margin-bottom: 90px;
-}
-.contact-container h2::after{
-  content:'';
-  width: 40px;
-  height: 2px;
-  position: absolute;
-  bottom: -40px;
-  left: 50%;
-  transform: translate(-50%);
-  display: block;
-  width: 50px;
-  background-color: black;
-}
+
 
 footer{
   display: flex;
