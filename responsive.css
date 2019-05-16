@@ -3,6 +3,19 @@
     font-size: 25px;
     vertical-align: center;
   }
+
+  header{
+    position: relative;
+  }
+  nav{
+    display: none;
+  }
+  .fa-bars{
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+
   .card{
     width: calc(50% - 80px);
   }
@@ -24,13 +37,6 @@
 }
 
 @media(max-width: 320px){
-  nav{
-    display: none;
-  }
-  .fa-bars{
-    display: inline-block;
-    margin-top: 20px;
-  }
   .card{
   width: 70%;
   }
@@ -46,7 +52,6 @@
   }
 .price-container{
   padding-bottom: 50px;
-  text-align: center;
 }
 .address p{
   margin: 0;
